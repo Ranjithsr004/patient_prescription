@@ -1,0 +1,37 @@
+
+
+@media (max-width: 1240px) {
+    .sidebar{
+      width: 60px;
+  
+    }
+    .sidebar.active{
+      width: 220px;
+    }
+    .home-section{
+      width: calc(100% - 60px);
+      left: 60px;
+    }
+    .sidebar.active ~ .home-section{
+      left: 220px;
+      width: calc(100% - 220px);
+      overflow: hidden;
+    }
+    .home-section nav{
+      width: calc(100% - 60px);
+      left: 60px;
+    }
+    .sidebar.active ~ .home-section nav{
+      width: calc(100% - 220px);
+      left: 220px;
+    }
+  }
+  @media (max-width: 1150px) {
+    .home-content .patient-list{
+      flex-direction: column;
+    }
+ 
+    .home-content .patient-list .add-patient{
+      margin: 0;
+    }
+  }

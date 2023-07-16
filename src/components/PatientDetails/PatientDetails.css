@@ -1,0 +1,119 @@
+
+.home-content1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 80%;
+  left: 240px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+ 
+}
+.home-content 
+{
+  background-color: #f2f2f2;
+  width: 100%;
+  left: 240px;
+  display: flex;
+  
+}
+.home-content .patient-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  
+}
+
+
+.home-content .patient-list .patient-name{
+    width: 50%;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+.home-content .patient-list .patient-name .search-box {
+    position: relative;
+    height: 50px;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 5px;
+}
+
+.home-content .patient-list .patient-name .search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+  }
+
+  .home-content .patient-list .patient-name .search-box .bx-search{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #2697FF;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    transition: all 0.4 ease;
+  }
+
+  .patient-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10x;
+    table-layout: fixed;
+    
+  }
+
+  .patient-name {
+    overflow-y:scroll;
+    height:70vh;
+    width: auto;
+    overflow-x: hidden;
+  }
+
+  .patient-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .patient-table tbody tr:hover {
+    background-color: #eaf6ff;
+  }
+  
+.patient-table td {
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  
+.patient-table td:first-child {
+  width: 50px;
+
+}
+  
+  .patient-table td:last-child {
+    text-align: left;
+  }
+  
+ 

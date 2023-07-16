@@ -1,0 +1,44 @@
+
+.add-patient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding-left: 300px; 
+  margin-right: 60px;
+  padding-top: 75px;
+  box-sizing: border-box;
+  margin-top: -80px;
+}
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+  }
+  
+  .button-container button {
+    margin: 0 5px; 
+  }
+  
+
+  .add-patient .table {
+    font-size: 12px; 
+    margin-bottom: 10;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .add-patient .table td,
+  .add-patient .table th {
+    padding: 0. 5rem;
+    text-align: center;
+  }
+  
+  .add-patient .table thead th {
+    vertical-align: middle;
+  }
+  
+  .add-patient .table tbody td {
+    vertical-align: middle;
+  }
